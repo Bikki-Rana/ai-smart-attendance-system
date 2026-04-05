@@ -6,20 +6,23 @@
 
 ## 🚀 Quick Start
 
-### Option 1: Double-click `start.bat`
-> First run will auto-install all dependencies (~5-15 min for AI packages).
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Bikki-Rana/ai-smart-attendance-system.git
+cd ai-smart-attendance-system
+```
 
-### Option 2: Manual
-
-**First time only:**
+### 2. First-Time Setup
+> This will auto-install all Python and Node.js dependencies (~5-15 min for AI packages).
 ```bat
 setup.bat
 ```
 
-**Every time:**
+### 3. Run the Application (Every Time)
 ```bat
 start.bat
 ```
+*(This script starts both servers and opens the app at `http://localhost:5173`)*
 
 ---
 
