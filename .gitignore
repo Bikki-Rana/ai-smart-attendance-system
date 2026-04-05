@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+python310/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+.env.local
+
+# Databases and user generated files
+backend/smartattend.db
+backend/installed.flag
+uploads/
+face_db/
+exports/
+
+# Build artifacts
+dist/
+build/
+frontend/dist/
+
+# Logs and temp files
+*.log
+.DS_Store
+~$*
